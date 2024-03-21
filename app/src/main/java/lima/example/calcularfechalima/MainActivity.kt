@@ -3,6 +3,7 @@ package lima.example.calcularfechalima
 import android.os.Bundle
 import android.widget.Button
 import android.widget.CalendarView
+import android.widget.EditText
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -21,10 +22,10 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        val dtpFecha = findViewById<CalendarView>(R.id.dtpFecha)
+        val txtFecha = findViewById<EditText>(R.id.txtFecha)
         val btnCalcular = findViewById<Button>(R.id.btnCalcular)
         val lblEdad = findViewById<TextView>(R.id.lblEdad)
 
-        
+
     }
 }
